@@ -16,26 +16,77 @@
 .Flex{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+    flex-direction: row;
     }
 .navlinks{
     /* Product Customers Pr */
     
-    
-    width: 350px;
-    height: 28px;
     position: relative;
+    top: calc(50% - 28px/2 - 1px);
+    width: 350px;
     height: 28px;
     left: 46.43%;
     right: 28.57%;
-    top: calc(50% - 28px/2 - 1px);
 
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 28px;
-    list
+
 /* identical to box height, or 200% */
 
     color: #2F281E;
    }
+.list{
+    list-style: none;
+
+}
+.navlinks li a{
+    text-decoration: none;
+
+}
+.NavBar{
+    /* 01 Navigation */
+
+    position: absolute;
+    width: 1400px;
+    height: 78px;
+    left: 0px;
+    top: 20px;
+}
+
+.B-look{
+    border-radius: 4px;
+    background-color: #FF9900;
+    border-style: solid;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: white;
+}
+.Button-1{
+    /* sign up */
+
+    position: absolute;
+    left: 81.79%;
+    right: 10.36%;
+    top: 19.23%;
+    bottom: 21.79%;
+    border: none;
+}
+.Button-2{
+    /* Sign in */
+
+    position: absolute;
+    left: 73.5%;
+    right: 19.21%;
+    top: 19.23%;
+    bottom: 21.79%;
+    border-color: lightsteelblue;
+    border-width: 1px;
+    background-color: white;
+    color: black;
+}
