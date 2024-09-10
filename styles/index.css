@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.NavBar{
+    postiion: absolute;
+    width: 1400px;
+    height: 76px;
+    top: 20px;
+
+}
+.logo{
+    position: absolute;
+    width: 185.34px;
+    height: 31.97px;
+    left: 143.92px;
+    top: 22px;
+    }
+.Flex{
+    display: flex;
+    align-items: center;
+    }
+.navlinks{
+    /* Product Customers Pr */
+    
+    
+    width: 350px;
+    height: 28px;
+    position: relative;
+    height: 28px;
+    left: 46.43%;
+    right: 28.57%;
+    top: calc(50% - 28px/2 - 1px);
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    list
+/* identical to box height, or 200% */
+
+    color: #2F281E;
+   }
