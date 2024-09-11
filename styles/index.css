@@ -1,10 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-    /*----------Buttons------------------*/
+/*------------------Buttons------------------*/
 .B-look{
     border-radius: 4px;
     background-color: #FF9900;
-    font-weight: 600;
     color: white;
     border: none;
     }
@@ -15,83 +13,80 @@
 .B-look-alt{
     border-radius: 4px;
     background-color: white;
-    font-weight: 600;
     border-color: lightsteelblue;
+    border-style: solid;
     border-width: 1px;
     color: black;
-    }
+}
 .B-look-alt:hover{
     background-color: lightgray;
     transition-duration: 0.8s;
 }
 /*-----------Other minor classes-----------------*/
+.abs{
+    position: absolute;
+}
 .textlook{
     font-family: 'Poppins', sans-serif;
     font-style: solid;
 }
-.textBlook{
-    font-family: 'Poppins', sans-serif;
-    font-style: solid;
+.font-w7{
+    font-weight: 700;
+}
+.font-w6{
+    font-weight: 600;
+}
+.font-w5{
+    font-weight: 500;
+}
+.font-w4{
+    font-weight: 400;
+}
+.font-s16{
+    font-size: 16px;
 }
 .reg-text{
-    font-weight: 400;
     font-size: 14px;
 }
+.col-base{
+    color: #2F281E;
+}
+.col-main{
+    color: #544837;
+}
+.title-text{
+    font-size: 44px;
+    line-height: 54px;
+}
+.s2-title-text{
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+}
+.s3-miniheadtext{
+    line-height: 26px;
+}
+.s2-card-head{
+    font-size: 22px;
+    line-height: 33px;
+}
 .vid-text{
-    font-weight: 600;
-    font-size: 16px;
     line-height: 24px;
     color: #FF9900;
     text-decoration: underline;
 }
+.s2-card-text{
+    line-height: 26px;
+}
+.s3-starttext{
+    line-height: 24px;
+}
 .reg-text-alt{
-    font-weight: 400;
     font-size: 18px;
     line-height: 28px;
 }
-.title-text{
-    font-weight: 700;
-    font-size: 44px;
-    line-height: 54px;
-    color: #2F281E;
-}
-.s2-title-text{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 54px;
-    text-align: center;
-    color: #2F281E;
-}
-.s2-card-head{
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 33px;
-    color: #2F281E;
-}
-.s2-card-text{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    color: #544837;
-}
-.s3-starttext{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #544837;
-}
-.s3-miniheadtext{
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 26px;
-    color: #2F281E;
-}
 .s6-foottext{
-    font-weight: 400;
-    font-size: 16px;
     line-height: 35px;
-    color: #544837;
-
 }
 .list{
     list-style: none;
@@ -107,21 +102,15 @@
 .Flex-Eve{
     justify-content: space-evenly;
     margin-top: 50px;
-    }
-    
-/*
-.Flex-list{
 }
-*/
-/*----------Navbar items----------------*/
+/*------------------Navbar items--------------------*/
 .NavBar{
-    position: absolute;
     width: 1400px;
     height: 76px;
+    left: 0px;
     top: 20px;
 }
 .logo{
-    position: absolute;
     width: 185.34px;
     height: 31.97px;
     left: 143.92px;
@@ -136,68 +125,42 @@
     right: 28.57%;
 
     line-height: 28px;
-    color: #2F281E;
    }
 .navlinks li a{
-       text-decoration: none;
-   }
-.NavBar{
-    position: absolute;
-    width: 1400px;
-    height: 78px;
-    left: 0px;
-    top: 20px;
+    text-decoration: none;
 }
-
 .Button-1{
-    /* sign up */
-
-    position: absolute;
     left: 81.79%;
     right: 10.36%;
     top: 19.23%;
     bottom: 21.79%;
 }
 .Button-2{
-    /* Sign in */
-
-    position: absolute;
     left: 73.5%;
     right: 19.21%;
     top: 19.23%;
     bottom: 21.79%;
 }
-/*-----------Main body----------*/
-
+/*-------------------Main body------------------------*/
 .img-jumpers{
-/* Image */
-
-    position: absolute;
     width: 605px;
     height: 496px;
     left: 666px;
     top: 128px;    
 }
 .textbox{
-    /* Left side */
-
-    position: absolute;
     width: 518px;
     height: 331px;
     left: 145px;
     top: 211px;
 }
 .textboxlower{
-/* the text under the first webpage header*/
-    position: absolute;
     width: 458px;
     height: 95px;
     left: 145px;
     top: 319px;
 }
 .buttonsLocation{
-/* Button under text */
-    position: absolute;
     left: 145px;
     top: 489px;
 }
@@ -206,26 +169,18 @@
     height: 53px;
 }
 .textbybutton{
-    /* text linked to video */
-
-    position: absolute;
     width: 161px;
     height: 23px;
     left: 330px;
     top: 504px;
 }
 .tribybutton{
-    /* triangle */
-
-    position: absolute;
     width: 161px;
     height: 23px;
     left: 370px;
     top: 504px;
 }
-.triangle{
-        /* drawing of triangle*/
-    position: absolute;
+.triangle{/* drawing of triangle*/
     left: 10.87%;
     top: 6.52%;
     right: 76.71%;
@@ -238,39 +193,25 @@
     border-radius: 3px;
     }
 /*----------------The second page-------------------*/
-
 .segment-02{
-    position: absolute;
     width: 2211px;
     height: 543px;
     left: -406px;
     top: 734px;
 }
 .s2-headtext{
-/* We design tools to u */
-    position: absolute;
     height: 108px;  
     left: 38.22%;
     right: 37.4%;
     top: calc(50% - 108px/2 - 217.5px);
 }
 .s2-alts{
-    position: absolute;
     width: 1095px;
     height: 204px;
     left: 567px;
     top: 85px;
 }
-.s2-alt-cards{
-    position: absolute;
-    width: 240px;
-    height: 204px;
-    left: 1422px;
-    top: 162px;
-}
 .s2-button{
-    /* button */
-    position: absolute;
     left: 46.45%;
     right: 45.64%;
     top: 73.66%;
@@ -278,100 +219,84 @@
 }
 /*-------------------------Segment 03---------------------------*/
 .segment-03{
-    position: absolute;
     width: 1110px;
     height: 574px;
     left: 145px;
     top: 1397px;
 }
 .s3-img{
-    position: absolute;
     left: 620px;
 }
 .s3-textblock{
-    position: absolute;
     width: 486px;
     height: 531px;
     left: 0px;
     top: 26px;
 }
 .s3-header{
-    position: absolute;
     top: 27px;
     left: 0px;
     text-align: left;
 }
 .s3-text-01{
-    position: absolute;
     top: 103px;
     left: 0px;
 }
 .s3-text-basic{
-    position: absolute;
     top: 38px;
     left: 0px;
 }
-.s3-box-loc-01{
-    position: absolute;
-    top: 220px;
-    left: 0px;
-    right: 0%;
-    bottom: 0%;
+.s3-box-loc-size{
+    width: 486px;
+    height: 86px;
+    position: relative;
 }
-.s3-box-loc-02{
-    position: absolute;
-    top: 326px;
-    left: 0px;
-    right: 0%;
-    bottom: 0%;
+/*-------------------------------------New flex groups---------------------------------*/
+.flex-column{
+    display: flex;
+    flex-direction: column;
 }
-.s3-box-loc-03{
-    position: absolute;
-    top: 441px;
+.Flexlist{
+    top: 150px;
+    height: 390px;
+    width: 486px;
+    justify-content: space-evenly;
+}
+.Flexlist-2{
+    top: 200px;
     left: 0px;
-    right: 0%;
-    bottom: 0%;
+    height: 246px;
+    width: 486px;
+    justify-content: space-around;
+}
+.Flexlist-3{
+    height: 206px;
+    width: 240px;
+    justify-content: space-evenly;
 }
 /*-----------------------------------------segement 04--------------------------*/
 .segment-04{
-    position: absolute;
     width: 1121px;
     height: 521px;
     left: 144px;
     top: 2072px;
 }
 .s4-textblock{
-    position: absolute;
     top: 49px;
     left: 631px;
     width: 427;
     height: 486px;
-
 }
 .s4-header{
     text-align: left;
 }
-.s4-img{
-    position:absolute;
-    top: 181px;
-}
-.s4-img-02{
-    position:absolute;
-    top: 263px;
-}
-.s4-img-03{
-    position:absolute;
-    top: 345px;
-}
 .s4-img-text{
-    position:absolute;
     top: -26px;
     left: 65px;
     width: 395px;
 }
 /*------------------------------------Segment 05------------------------------*/
 .segment-05{
-    position: absolute;
     width: 1110px;
     height: 609px;
     left: 147px;
@@ -379,7 +304,6 @@
 }
 /*------------------------------------Segment 06------------------------------*/
 .segment-06{
-    position: absolute;
     width: 1109px;
     height: 391px;
     left: 160px;
@@ -389,55 +313,41 @@
     border-width: 1px;
 }
 .s6-logo{
-    position: absolute;
     top: 102px;
 }
 .s6-text_01{
-    position: absolute;
     top: 102px;
     left: 326px;
     width: 100px;
 }
 .s6-text_02{
-    position: absolute;
     top: 102px;
     left: 571px;
     width: 132px;
 }
 .s6-inline{
-    position: absolute;
     top: 65px;
-}
-.s6-foottext{
-    margin:20;
 }
 .txt{
     text-decoration: none;
-    color: #544837;
 }
 .s6-finalsquare{
-    position: absolute;
     left: 784px;
     top: 102px;
 }
 .hidden{
-    position: absolute;
     top: 0px;
     left: 0px;
     width: 280px;
     height: 57px;
     font-size: 20px;
     line-height: 30px;
-    color: #2F281E;
 }
 .phone-square{
     box-sizing: border-box;
-
-    position: absolute;
     left: 0px;
     right: 0px;
     top: 93px;  
-    
     height: 48px;
     width: 325px;
     background: #FFFFFF;
@@ -445,9 +355,6 @@
     border-radius: 4px;
 }
 .phone-text{
-    /* Enter your phone Num */
-
-    position: absolute;
     height: 28px;
     width: 300px;
     left: 15px;
@@ -457,11 +364,15 @@
     color: white;
 }
 .s6-button{
-    position: absolute;
     left: 0px;
     top: 160px;
     width: 131px;
     height: 39px;
+}
+.location{
+    border: #c37272;
+    border-width: 3px;
+    border-style: solid;
 }
 
 
@@ -470,9 +381,5 @@
 
 
 
-
-
-
-
-
+/*
 
