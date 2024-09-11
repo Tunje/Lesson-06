@@ -208,35 +208,35 @@
 .textbybutton{
     /* text linked to video */
 
-position: absolute;
-width: 161px;
-height: 23px;
-left: 330px;
-top: 504px;
+    position: absolute;
+    width: 161px;
+    height: 23px;
+    left: 330px;
+    top: 504px;
 }
 .tribybutton{
     /* triangle */
 
-position: absolute;
-width: 161px;
-height: 23px;
-left: 370px;
-top: 504px;
+    position: absolute;
+    width: 161px;
+    height: 23px;
+    left: 370px;
+    top: 504px;
 }
 .triangle{
-    /* drawing of triangle*/
-position: absolute;
-left: 10.87%;
-top: 6.52%;
-right: 76.71%;
-bottom: 19.57%;
-width: 0; 
-height: 0; 
-border-top: 10px solid transparent;
-border-bottom: 10px solid transparent;
-border-left: 16px solid #FF9900;
-border-radius: 3px;
-}
+        /* drawing of triangle*/
+    position: absolute;
+    left: 10.87%;
+    top: 6.52%;
+    right: 76.71%;
+    bottom: 19.57%;
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 16px solid #FF9900;
+    border-radius: 3px;
+    }
 /*----------------The second page-------------------*/
 
 .segment-02{
@@ -447,24 +447,22 @@ border-radius: 3px;
 .phone-text{
     /* Enter your phone Num */
 
-position: absolute;
-height: 28px;
-width: 300px;
-left: 15px;
-color: #BCD0E5;
+    position: absolute;
+    height: 28px;
+    width: 300px;
+    left: 15px;
+    color: #BCD0E5;
 }
 .phone-text:hover{
     color: white;
 }
 .s6-button{
-position: absolute;
-left: 0px;
-top: 160px;
-width: 131px;
-height: 39px;
+    position: absolute;
+    left: 0px;
+    top: 160px;
+    width: 131px;
+    height: 39px;
 }
-
-/* Rectangle 5 Copy */
 
 
 
