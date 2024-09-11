@@ -4,8 +4,6 @@
 .B-look{
     border-radius: 4px;
     background-color: #FF9900;
-    border-style: solid;
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     color: white;
     border: none;
@@ -17,8 +15,6 @@
 .B-look-alt{
     border-radius: 4px;
     background-color: white;
-    border-style: solid;
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     border-color: lightsteelblue;
     border-width: 1px;
@@ -29,14 +25,19 @@
     transition-duration: 0.8s;
 }
 /*-----------Other minor classes-----------------*/
-.reg-text{
+.textlook{
     font-family: 'Poppins', sans-serif;
-    font-style: normal;
+    font-style: solid;
+}
+.textBlook{
+    font-family: 'Poppins', sans-serif;
+    font-style: solid;
+}
+.reg-text{
     font-weight: 400;
     font-size: 14px;
-}.vid-text{
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
+}
+.vid-text{
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
@@ -44,19 +45,53 @@
     text-decoration: underline;
 }
 .reg-text-alt{
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
 }
 .title-text{
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 44px;
     line-height: 54px;
     color: #2F281E;
+}
+.s2-title-text{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #2F281E;
+}
+.s2-card-head{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #2F281E;
+}
+.s2-card-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+.s3-starttext{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #544837;
+}
+.s3-miniheadtext{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2F281E;
+}
+.s6-foottext{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #544837;
+
 }
 .list{
     list-style: none;
@@ -69,6 +104,15 @@
     padding: 0px;
     flex-direction: row;
 }
+.Flex-Eve{
+    justify-content: space-evenly;
+    margin-top: 50px;
+    }
+    
+/*
+.Flex-list{
+}
+*/
 /*----------Navbar items----------------*/
 .NavBar{
     position: absolute;
@@ -125,15 +169,6 @@
 }
 /*-----------Main body----------*/
 
-.Body-01{
-
-    position: absolute;
-    width: 1126px;
-    height: 496px;
-    left: 145px;
-    top: 128px;
-
-}
 .img-jumpers{
 /* Image */
 
@@ -161,7 +196,7 @@
     top: 319px;
 }
 .buttonsLocation{
-/* Button */
+/* Button under text */
     position: absolute;
     left: 145px;
     top: 489px;
@@ -171,7 +206,7 @@
     height: 53px;
 }
 .textbybutton{
-    /* button */
+    /* text linked to video */
 
 position: absolute;
 width: 161px;
@@ -180,7 +215,7 @@ left: 330px;
 top: 504px;
 }
 .tribybutton{
-    /* button */
+    /* triangle */
 
 position: absolute;
 width: 161px;
@@ -189,6 +224,7 @@ left: 370px;
 top: 504px;
 }
 .triangle{
+    /* drawing of triangle*/
 position: absolute;
 left: 10.87%;
 top: 6.52%;
@@ -201,3 +237,244 @@ border-bottom: 10px solid transparent;
 border-left: 16px solid #FF9900;
 border-radius: 3px;
 }
+/*----------------The second page-------------------*/
+
+.segment-02{
+    position: absolute;
+    width: 2211px;
+    height: 543px;
+    left: -406px;
+    top: 734px;
+}
+.s2-headtext{
+/* We design tools to u */
+    position: absolute;
+    height: 108px;  
+    left: 38.22%;
+    right: 37.4%;
+    top: calc(50% - 108px/2 - 217.5px);
+}
+.s2-alts{
+    position: absolute;
+    width: 1095px;
+    height: 204px;
+    left: 567px;
+    top: 85px;
+}
+.s2-alt-cards{
+    position: absolute;
+    width: 240px;
+    height: 204px;
+    left: 1422px;
+    top: 162px;
+}
+.s2-button{
+    /* button */
+    position: absolute;
+    left: 46.45%;
+    right: 45.64%;
+    top: 73.66%;
+    bottom: 16.57%;
+}
+/*-------------------------Segment 03---------------------------*/
+.segment-03{
+    position: absolute;
+    width: 1110px;
+    height: 574px;
+    left: 145px;
+    top: 1397px;
+}
+.s3-img{
+    position: absolute;
+    left: 620px;
+}
+.s3-textblock{
+    position: absolute;
+    width: 486px;
+    height: 531px;
+    left: 0px;
+    top: 26px;
+}
+.s3-header{
+    position: absolute;
+    top: 27px;
+    left: 0px;
+    text-align: left;
+}
+.s3-text-01{
+    position: absolute;
+    top: 103px;
+    left: 0px;
+}
+.s3-text-basic{
+    position: absolute;
+    top: 38px;
+    left: 0px;
+}
+.s3-box-loc-01{
+    position: absolute;
+    top: 220px;
+    left: 0px;
+    right: 0%;
+    bottom: 0%;
+}
+.s3-box-loc-02{
+    position: absolute;
+    top: 326px;
+    left: 0px;
+    right: 0%;
+    bottom: 0%;
+}
+.s3-box-loc-03{
+    position: absolute;
+    top: 441px;
+    left: 0px;
+    right: 0%;
+    bottom: 0%;
+}
+/*-----------------------------------------segement 04--------------------------*/
+.segment-04{
+    position: absolute;
+    width: 1121px;
+    height: 521px;
+    left: 144px;
+    top: 2072px;
+}
+.s4-textblock{
+    position: absolute;
+    top: 49px;
+    left: 631px;
+    width: 427;
+    height: 486px;
+
+}
+.s4-header{
+    text-align: left;
+}
+.s4-img{
+    position:absolute;
+    top: 181px;
+}
+.s4-img-02{
+    position:absolute;
+    top: 263px;
+}
+.s4-img-03{
+    position:absolute;
+    top: 345px;
+}
+.s4-img-text{
+    position:absolute;
+    top: -26px;
+    left: 65px;
+    width: 395px;
+}
+/*------------------------------------Segment 05------------------------------*/
+.segment-05{
+    position: absolute;
+    width: 1110px;
+    height: 609px;
+    left: 147px;
+    top: 2697px;
+}
+/*------------------------------------Segment 06------------------------------*/
+.segment-06{
+    position: absolute;
+    width: 1109px;
+    height: 391px;
+    left: 160px;
+    top: 3452px;
+    border-top: solid;
+    border-color: lightsteelblue;
+    border-width: 1px;
+}
+.s6-logo{
+    position: absolute;
+    top: 102px;
+}
+.s6-text_01{
+    position: absolute;
+    top: 102px;
+    left: 326px;
+    width: 100px;
+}
+.s6-text_02{
+    position: absolute;
+    top: 102px;
+    left: 571px;
+    width: 132px;
+}
+.s6-inline{
+    position: absolute;
+    top: 65px;
+}
+.s6-foottext{
+    margin:20;
+}
+.txt{
+    text-decoration: none;
+    color: #544837;
+}
+.s6-finalsquare{
+    position: absolute;
+    left: 784px;
+    top: 102px;
+}
+.hidden{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 280px;
+    height: 57px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2F281E;
+}
+.phone-square{
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 93px;  
+    
+    height: 48px;
+    width: 325px;
+    background: #FFFFFF;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+}
+.phone-text{
+    /* Enter your phone Num */
+
+position: absolute;
+height: 28px;
+width: 300px;
+left: 15px;
+color: #BCD0E5;
+}
+.phone-text:hover{
+    color: white;
+}
+.s6-button{
+position: absolute;
+left: 0px;
+top: 160px;
+width: 131px;
+height: 39px;
+}
+
+/* Rectangle 5 Copy */
+
+
+
+
+
+
+
+
+
+
+
+
+
