@@ -103,6 +103,9 @@
     justify-content: space-evenly;
     margin-top: 50px;
 }
+.marg{
+    margin-top: 10px;
+}
 /*------------------Navbar items--------------------*/
 .NavBar{
     width: 1400px;
@@ -233,15 +236,6 @@
     left: 0px;
     top: 26px;
 }
-.s3-header{
-    top: 27px;
-    left: 0px;
-    text-align: left;
-}
-.s3-text-01{
-    top: 103px;
-    left: 0px;
-}
 .s3-text-basic{
     top: 38px;
     left: 0px;
@@ -257,17 +251,15 @@
     flex-direction: column;
 }
 .Flexlist{
-    top: 150px;
-    height: 390px;
+    top: 0px;
+    height: 540px;
     width: 486px;
     justify-content: space-evenly;
 }
 .Flexlist-2{
-    top: 200px;
-    left: 0px;
-    height: 246px;
+    height: 446px;
     width: 486px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .Flexlist-3{
     height: 206px;
@@ -286,9 +278,6 @@
     left: 631px;
     width: 427;
     height: 486px;
-}
-.s4-header{
-    text-align: left;
 }
 .s4-img-text{
     top: -26px;
